@@ -128,11 +128,11 @@
 			path = "Resources/Assets.xcassets";
 			sourceTree = "<group>";
 		};
-		332EC75517F49FD61765178D /* Shuntie.app */ = {
+		332EC75517F49FD61765178D /* PasteFlick.app */ = {
 			isa = PBXFileReference;
 			explicitFileType = wrapper.application;
 			includeInIndex = 0;
-			path = Shuntie.app;
+			path = PasteFlick.app;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		F3A910E1446AD9747F2D83E8 /* ClipboardSnapshot.swift */ = {
@@ -186,7 +186,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38A58FF9A2EF56E7E95EB3B4 /* Shuntie Frameworks phase */ = {
+		38A58FF9A2EF56E7E95EB3B4 /* PasteFlick Frameworks phase */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = ();
@@ -223,14 +223,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9567D8FD616A657C5F8F316A /* Shuntie */ = {
+		9567D8FD616A657C5F8F316A /* PasteFlick */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA79A3AC4CB87334A363C90;
 			buildPhases = (13E10BEEDFD74F77C1ED99B0, 38A58FF9A2EF56E7E95EB3B4, B074613B48246F19882F19F6,);
 			buildRules = ();
 			dependencies = ();
-			name = Shuntie;
-			productName = Shuntie;
+			name = PasteFlick;
+			productName = PasteFlick;
 			productReference = 332EC75517F49FD61765178D;
 			productType = "com.apple.product-type.application";
 		};
@@ -254,7 +254,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B074613B48246F19882F19F6 /* Shuntie Resources phase */ = {
+		B074613B48246F19882F19F6 /* PasteFlick Resources phase */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (F0C243AC6C71CDE04FE225C8,);
@@ -263,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13E10BEEDFD74F77C1ED99B0 /* Shuntie Sources phase */ = {
+		13E10BEEDFD74F77C1ED99B0 /* PasteFlick Sources phase */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (82A151B83CA27A7D35AB7636, 39D8AFF4B295F135A1274380, 18FABC42C916F6C3DECFC285, BCDF085E8BFCDF5D6CE62ACC, 5DB21C1C6C44C17C57A050C7, B10DC3FCCDFD824E6F908F00, CBCBA3E970ABB6ED0F84AFDD, 2BBD8D2367D95EB868E899B5, CD246DD690E2E587A940868E, A2CDC75984CA43210CFCED44, 564E8473EF7A4461158065E1, C500FB83CAF9C614B1E93367, 96C0D1B95356AC9F89B68304, CA2E348BC9C885D6C6A640C0, 21DBFCF9AAFCABD5DE8EB32E,);
@@ -282,14 +282,14 @@
 			buildSettings = { ARCHS = "arm64"; MACOSX_DEPLOYMENT_TARGET = "15.0"; SDKROOT = "macosx"; SWIFT_VERSION = "6.0"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = "Manual"; ENABLE_HARDENED_RUNTIME = "NO"; ENABLE_APP_SANDBOX = "NO"; CLANG_ENABLE_MODULES = "YES"; ENABLE_USER_SCRIPT_SANDBOXING = "YES"; SWIFT_TREAT_WARNINGS_AS_ERRORS = "YES"; SWIFT_COMPILATION_MODE = "wholemodule"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; };
 			name = Release;
 		};
-		9723938C1F91EA46FBB1A235 /* Shuntie Debug */ = {
+		9723938C1F91EA46FBB1A235 /* PasteFlick Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = { ENABLE_DEBUG_DYLIB = "NO"; PRODUCT_NAME = "Shuntie"; INFOPLIST_FILE = "Sources/Info.plist"; MARKETING_VERSION = "0.1.0"; CURRENT_PROJECT_VERSION = "4"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "local.shuntie.debug"; };
+			buildSettings = { ENABLE_DEBUG_DYLIB = "NO"; PRODUCT_NAME = "PasteFlick"; INFOPLIST_FILE = "Sources/Info.plist"; MARKETING_VERSION = "0.1.0"; CURRENT_PROJECT_VERSION = "4"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "local.shuntie.debug"; };
 			name = Debug;
 		};
-		7C03AF065EB03941906FE1D8 /* Shuntie Release */ = {
+		7C03AF065EB03941906FE1D8 /* PasteFlick Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = { ENABLE_DEBUG_DYLIB = "NO"; PRODUCT_NAME = "Shuntie"; INFOPLIST_FILE = "Sources/Info.plist"; MARKETING_VERSION = "0.1.0"; CURRENT_PROJECT_VERSION = "1"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "local.shuntie"; };
+			buildSettings = { ENABLE_DEBUG_DYLIB = "NO"; PRODUCT_NAME = "PasteFlick"; INFOPLIST_FILE = "Sources/Info.plist"; MARKETING_VERSION = "0.1.0"; CURRENT_PROJECT_VERSION = "1"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "local.shuntie"; };
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
@@ -301,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBA79A3AC4CB87334A363C90 /* Shuntie configs */ = {
+		FBA79A3AC4CB87334A363C90 /* PasteFlick configs */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (9723938C1F91EA46FBB1A235, 7C03AF065EB03941906FE1D8,);
 			defaultConfigurationIsVisible = 0;

@@ -30,4 +30,4 @@
 make run
 ```
 
-启动后可在 macOS 菜单栏找到「瞬贴」。也可以在 Xcode 中打开 `PasteFlick/Shuntie.xcodeproj` 并运行 `Shuntie`。
+启动后可在 macOS 菜单栏找到「瞬贴」。也可以在 Xcode 中打开 `PasteFlick/PasteFlick.xcodeproj` 并运行 `PasteFlick`。
